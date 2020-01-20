@@ -4,16 +4,6 @@ let priceOfDelivery;
 
 let countryOfDeivery;
 
-const China = "Китай";
-
-const Chile = "Чили";
-
-const Australia = "Австралия";
-
-const India = "Индия";
-
-const Jamaica = "Ямайка";
-
 const countryOfDelivery = prompt("В какую страну доставить товар?");
 
 const countryOfDeliveryNorm = countryOfDelivery.toLowerCase();

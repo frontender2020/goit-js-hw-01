@@ -8,7 +8,7 @@ let totalPrice = numberOfDroids * pricePerDroid;
 
 let rest = credits - totalPrice;
 
-if (numberOfDroids === false) {
+if (numberOfDroids === null) {
   alert("Отменено пользователем!");
 } else {
   alert(totalPrice);

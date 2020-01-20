@@ -6,7 +6,7 @@ let message;
 
 message = prompt("please enter your password");
 
-if (message === false) {
+if (message === null) {
   alert("Отменено пользователем!");
 } else if (message === "jqueryismyjam") {
   alert("Добро пожаловать!");
