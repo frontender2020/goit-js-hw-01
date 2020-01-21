@@ -2,8 +2,6 @@
 
 let priceOfDelivery;
 
-let countryOfDeivery;
-
 const countryOfDelivery = prompt("В какую страну доставить товар?");
 
 const countryOfDeliveryNorm = countryOfDelivery.toLowerCase();

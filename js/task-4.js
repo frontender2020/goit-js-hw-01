@@ -9,15 +9,23 @@ let totalPrice = numberOfDroids * pricePerDroid;
 let rest = credits - totalPrice;
 
 if (numberOfDroids === null) {
+  
   alert("Отменено пользователем!");
+
+  
 } else {
+  
   alert(totalPrice);
+  
+  if (totalPrice > credits) {
+  
+  alert("Недостаточно средств на счету!");
+
+} else {
+  
+  alert(`Вы купили ${numberOfDroids} дроидов, на счету осталось ${rest} кредитов.`);
 }
 
-if (totalPrice > credits) {
-  alert("Недостаточно средств на счету!");
-} else {
-  alert(
-    `Вы купили ${numberOfDroids} дроидов, на счету осталось ${rest} кредитов.`
-  );
+  
 }
+
